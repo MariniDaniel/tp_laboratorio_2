@@ -1,0 +1,9 @@
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.dll
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.pdb
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Instanciables\bin\Debug\Clases Abstractas.dll
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Instanciables\bin\Debug\Clases Abstractas.pdb
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.dll
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.pdb

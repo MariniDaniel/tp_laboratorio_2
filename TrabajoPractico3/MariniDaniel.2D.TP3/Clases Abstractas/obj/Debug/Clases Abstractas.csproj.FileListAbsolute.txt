@@ -1,0 +1,6 @@
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csprojAssemblyReference.cache
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.pdb

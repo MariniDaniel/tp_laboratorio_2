@@ -1,0 +1,18 @@
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Lautaro\Source\Repos\Galarza.Lautaro.2ºA.TP3\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\Lautaro\Desktop\Facultad\tp_laboratorio_2\TP3\Galarza.Lautaro.2ºA.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Lautaro\Desktop\Facultad\tp_laboratorio_2\TP3\Galarza.Lautaro.2ºA.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Facultad\tp_laboratorio_2\TP3\Galarza.Lautaro.2ºA.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Lautaro\Desktop\Facultad\tp_laboratorio_2\TP3\Galarza.Lautaro.2ºA.TP3\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\Lautaro\Desktop\Facultad\tp_laboratorio_2\TP3\Galarza.Lautaro.2ºA.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Lautaro\Desktop\Facultad\tp_laboratorio_2\TP3\Galarza.Lautaro.2ºA.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Daniel\Desktop\LA UTYCOPI\Programacion-Laboratorio_2-master\Parciales y TPs\TPs\TP3\Galarza.Lautaro.2ºA.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Daniel\Desktop\LA UTYCOPI\Programacion-Laboratorio_2-master\Parciales y TPs\TPs\TP3\Galarza.Lautaro.2ºA.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Daniel\Desktop\LA UTYCOPI\Programacion-Laboratorio_2-master\Parciales y TPs\TPs\TP3\Galarza.Lautaro.2ºA.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Daniel\Desktop\LA UTYCOPI\Programacion-Laboratorio_2-master\Parciales y TPs\TPs\TP3\Galarza.Lautaro.2ºA.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\LA UTYCOPI\Programacion-Laboratorio_2-master\Parciales y TPs\TPs\TP3\Galarza.Lautaro.2ºA.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Daniel\Desktop\LA UTYCOPI\Programacion-Laboratorio_2-master\Parciales y TPs\TPs\TP3\Galarza.Lautaro.2ºA.TP3\Excepciones\obj\Debug\Excepciones.pdb
