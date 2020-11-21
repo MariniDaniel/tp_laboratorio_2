@@ -1,0 +1,22 @@
+C:\Users\CX SLIM\Desktop\tp_laboratorio_2\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\CX SLIM\Desktop\tp_laboratorio_2\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\CX SLIM\Desktop\tp_laboratorio_2\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\bin\Debug\Archivos.dll
+C:\Users\CX SLIM\Desktop\tp_laboratorio_2\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\bin\Debug\Excepciones.dll
+C:\Users\CX SLIM\Desktop\tp_laboratorio_2\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\bin\Debug\Archivos.pdb
+C:\Users\CX SLIM\Desktop\tp_laboratorio_2\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\bin\Debug\Excepciones.pdb
+C:\Users\CX SLIM\Desktop\tp_laboratorio_2\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\CX SLIM\Desktop\tp_laboratorio_2\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\CX SLIM\Desktop\tp_laboratorio_2\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\CX SLIM\Desktop\tp_laboratorio_2\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\CX SLIM\Desktop\tp_laboratorio_2\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\bin\Debug\Archivos.dll
+C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\bin\Debug\Excepciones.dll
+C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\bin\Debug\Archivos.pdb
+C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\bin\Debug\Excepciones.pdb
+C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\Entidades\obj\Debug\Entidades.pdb
