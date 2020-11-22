@@ -16,3 +16,12 @@ C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\
 C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\Archivos\obj\Debug\Archivos.csproj.CopyComplete
 C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\Archivos\obj\Debug\Archivos.dll
 C:\Users\Daniel\Desktop\tp_laboratorio_2-master\TP Nro 4\Noguera.Leandro.2D.TP4\Archivos\obj\Debug\Archivos.pdb
+C:\Users\Daniel\Desktop\tp_laboratorio_2\TrabajoPractico4\MariniDaniel.2D.TP4\Archivos\bin\Debug\Archivos.dll
+C:\Users\Daniel\Desktop\tp_laboratorio_2\TrabajoPractico4\MariniDaniel.2D.TP4\Archivos\bin\Debug\Archivos.pdb
+C:\Users\Daniel\Desktop\tp_laboratorio_2\TrabajoPractico4\MariniDaniel.2D.TP4\Archivos\bin\Debug\Excepciones.dll
+C:\Users\Daniel\Desktop\tp_laboratorio_2\TrabajoPractico4\MariniDaniel.2D.TP4\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\Daniel\Desktop\tp_laboratorio_2\TrabajoPractico4\MariniDaniel.2D.TP4\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\Daniel\Desktop\tp_laboratorio_2\TrabajoPractico4\MariniDaniel.2D.TP4\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\tp_laboratorio_2\TrabajoPractico4\MariniDaniel.2D.TP4\Archivos\obj\Debug\Archivos.csproj.CopyComplete
+C:\Users\Daniel\Desktop\tp_laboratorio_2\TrabajoPractico4\MariniDaniel.2D.TP4\Archivos\obj\Debug\Archivos.dll
+C:\Users\Daniel\Desktop\tp_laboratorio_2\TrabajoPractico4\MariniDaniel.2D.TP4\Archivos\obj\Debug\Archivos.pdb

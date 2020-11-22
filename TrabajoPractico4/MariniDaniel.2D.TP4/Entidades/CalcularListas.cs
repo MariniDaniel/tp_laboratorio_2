@@ -30,7 +30,7 @@ namespace System.Collections.Generic
         /// </summary>
         /// <param name="listaVentas"></param>
         /// <returns>acumulo de ventas</returns>
-        public static double TotalVentas(this List<Venta> listaVentas)
+        public static double VentasTotales(this List<Venta> listaVentas)
         {
             double montoAcumulado = 0;
 

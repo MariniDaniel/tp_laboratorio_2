@@ -10,7 +10,7 @@ namespace ClaseDeTest
     {
         static void Main(string[] args)
         {
-            Console.Title = "MariniDaniel.2D.TP4";
+            Console.Title = "Marini.Daniel.2D.TP4";
 
             // a= articulo
             //Articulos Perecederos
@@ -26,6 +26,12 @@ namespace ClaseDeTest
             AlimentoNoPerecedero a8 = new AlimentoNoPerecedero("Garbanzos", 8, 23.00, 43, Articulo.ETipo.noPerecedero);
             AlimentoNoPerecedero a9 = new AlimentoNoPerecedero("Leche En Polvo", 9, 260.00, 67, Articulo.ETipo.noPerecedero);
             AlimentoNoPerecedero a10 = new AlimentoNoPerecedero("Azucar", 10, 50.99, 243, Articulo.ETipo.noPerecedero);
+
+            //Articulos Semi-Perecederos
+            AlimentoSemiPerecederos a11 = new AlimentoSemiPerecederos("Almendras", 11, 160, 243, Articulo.ETipo.semiPerecedero);
+            AlimentoSemiPerecederos a12 = new AlimentoSemiPerecederos("Gramineas", 12, 15, 12, Articulo.ETipo.semiPerecedero);
+            AlimentoSemiPerecederos a13 = new AlimentoSemiPerecederos("Batatas", 13, 70, 65, Articulo.ETipo.semiPerecedero);
+
 
             Venta venta = new Venta();
 
@@ -59,7 +65,15 @@ namespace ClaseDeTest
                 if (Deposito.Articulos + a9)
                     Console.WriteLine($"Producto: {a9.Stock} cargado con exito");
                 if (Deposito.Articulos + a10)
+
+                //3 Articulos SemiPerecederos
                     Console.WriteLine($"Producto: {a10.Stock} cargado con exito");
+                if (Deposito.Articulos + a11)
+                    Console.WriteLine($"Producto: {a11.Stock} cargado con exito");
+                if (Deposito.Articulos + a12)
+                    Console.WriteLine($"Producto: {a12.Stock} cargado con exito");
+                if (Deposito.Articulos + a13)
+                    Console.WriteLine($"Producto: {a13.Stock} cargado con exito");
             }
             catch (ArticulosEx e)
             {
@@ -113,6 +127,8 @@ namespace ClaseDeTest
                 venta += 1;
                 venta += 2;
                 venta += 3;
+                venta += 4;
+                venta += 5;
 
             }
             catch (VentasEx e)
@@ -127,7 +143,7 @@ namespace ClaseDeTest
 
             try
             {
-                Console.WriteLine("\nSe intenta cargar id27 inexistente: ");
+                Console.WriteLine("\nSe intenta cargar ID = 27 inexistente: ");
                 Console.WriteLine();
 
                 venta += 27;
@@ -210,7 +226,7 @@ namespace ClaseDeTest
                 Console.WriteLine();
 
                 Console.WriteLine($"Stock total: {Deposito.Articulos.StockTotal()}");
-                Console.WriteLine($"Acumulado de ventas: ${Deposito.Ventas.TotalVentas()}");
+                Console.WriteLine($"Acumulado de ventas: ${Deposito.Ventas.VentasTotales()}");
 
             }
             catch (Exception e)
@@ -239,6 +255,7 @@ namespace ClaseDeTest
             }
 
             Console.WriteLine("Toque Cualquier Tecla Para Seguir!,ESTE ES LA ULTIMA VEZ!!");
+            Console.WriteLine("Hasta la proxima!Vuelva prontos");
             Console.ReadKey();
             Console.Clear();
         }

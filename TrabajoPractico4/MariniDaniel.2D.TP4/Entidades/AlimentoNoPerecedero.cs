@@ -39,10 +39,10 @@ namespace Entidades
         protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("\nPRODUCTO NO PERECEDERO");
-            sb.AppendLine("---------------------------------------------------------");
+            sb.AppendLine("\nARTICULO NO PERECEDERO");
+            sb.AppendLine("$-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+$");
             sb.AppendLine(base.Mostrar());
-            sb.AppendLine("Este producto puede ser conservado a temperatura ambiente");
+            sb.AppendLine("Este Articulo Se Puede Conservar en cualquier ambiente.");
 
 
             return sb.ToString();

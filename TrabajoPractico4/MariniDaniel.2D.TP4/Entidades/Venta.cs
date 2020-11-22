@@ -8,8 +8,12 @@ using System.Threading;
 namespace Entidades
 {
     public delegate bool VentasDelegado(Venta venta);
-
+    //Coloco para no ver los warnings
+#pragma warning disable CS0660 // El tipo define operator == or operator !=, pero no reemplaza a override Object.Equals(object o)
+#pragma warning disable CS0661 // El tipo define operator == or operator !=, pero no reemplaza a Object.GetHashCode()
     public class Venta
+#pragma warning restore CS0661 // El tipo define operator == or operator !=, pero no reemplaza a Object.GetHashCode()
+#pragma warning restore CS0660 // El tipo define operator == or operator !=, pero no reemplaza a override Object.Equals(object o)
     {
         private List<Articulo> articulos;
         private string numeroDeTicket;

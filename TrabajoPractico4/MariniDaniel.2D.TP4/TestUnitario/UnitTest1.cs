@@ -34,7 +34,7 @@ namespace TestUnitario
         /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArticulosEx))]
-        public void ProductoRepetido_Test()
+        public void ArticulosRepetido_Test()
         {
             bool retorno;
             AlimentoPerecedero a1 = new AlimentoPerecedero("Pepitos", 20, 10.15, 100, Articulo.ETipo.perecedero);
@@ -47,7 +47,7 @@ namespace TestUnitario
         /// Verifica que se instancie la lista de tipo Producto al instanciar un objeto de tipo Venta
         /// </summary>
         [TestMethod]
-        public void ListaProductos_Test()
+        public void ListaArticulos_Test()
         {
             Venta v = new Venta();
 

@@ -29,6 +29,7 @@ namespace Entidades
         {
             noPerecedero,
             perecedero,
+            semiPerecedero
         }
 
 

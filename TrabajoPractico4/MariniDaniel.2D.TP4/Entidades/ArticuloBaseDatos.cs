@@ -22,19 +22,22 @@ namespace Entidades
         public ArticuloBaseDatos()
         {
             sqlConexion = new SqlConnection();
-            sqlConexion.ConnectionString = "Data Source=.\\sqlexpress; Initial Catalog=TPNro4; Integrated Security=True;";
+            sqlConexion.ConnectionString = "Data Source=.\\sqlexpress; Initial Catalog=TrabajoPracticoN4; Integrated Security=True;";
+
             sqlComando = new SqlCommand();
             sqlComando.Connection = sqlConexion;
             sqlComando.CommandType = CommandType.Text;
         }
+
         #endregion
 
         #region Metodos
+
         /// <summary>
-        /// Ejecuta ExecuteNonQuery() en una sqlConexion SQL
+        /// Ejecuta ExecuteNonQuery en la sqlConexion SQL
         /// </summary>
         /// <param name="sql"></param>
-        /// <returns>True si se ejecuto, false caso contrario</returns>
+        /// <returns>True si se ejecuto, false de lo contrario</returns>
         public bool EjecutarNonQuery(string sql)
         {
             bool ejecuto = false;
@@ -68,42 +71,42 @@ namespace Entidades
         /// <returns>True si se guardo, false caso contrario</returns>
         public bool InsertarProducto(Articulo art)
         {
-            string sql = "Insert into articulos(nombre, idArticulo, precio, stock, tipoArticulo) " +
-                "values(@auxDescripcion, @auxID, @auxPrecio, @auxCantidad, @auxTipo)";
+            string sql = "Insert into articulos(nombre,idArticulo,precio,stock,tipoArticulo) " +
+                "values(@auxNombre, @auxID, @auxPrecio, @auxStock, @auxTipo)";
 
-            sqlComando.Parameters.Add(new SqlParameter("@auxDescripcion", art.Nombre));
+            sqlComando.Parameters.Add(new SqlParameter("@auxNombre", art.Nombre));
             sqlComando.Parameters.Add(new SqlParameter("@auxID", art.Id));
             sqlComando.Parameters.Add(new SqlParameter("@auxPrecio", art.Precio));
-            sqlComando.Parameters.Add(new SqlParameter("@auxCantidad", art.Stock));
+            sqlComando.Parameters.Add(new SqlParameter("@auxStock", art.Stock));
             sqlComando.Parameters.Add(new SqlParameter("@auxTipo", art.Tipo.ToString()));
 
             return EjecutarNonQuery(sql);
         }
 
         /// <summary>
-        /// Modifica un Articulo de la base de datos
+        /// Se Modifica un Articulo de la base de datos
         /// </summary>
         /// <param name="art"></param>
-        /// <returns>True si se modifico, false caso contrario</returns>
+        /// <returns>True si se modifico, false lo contrario :D</returns>
         public bool ModificarProducto(Articulo art)
         {
-            string sql = "Update articulos Set nombre = @auxDescripcion, idArticulo = @auxID, " +
-                "precio = @auxPrecio, stock = @auxCantidad, tipoArticulo = @auxTipo where idArticulo = @auxID";
+            string sql = "Update articulos Set nombre = @auxNombre, idArticulo = @auxID, " +
+                "precio = @auxPrecio, stock = @auxStock, tipoArticulo = @auxTipo where idArticulo = @auxID";
 
-            sqlComando.Parameters.Add(new SqlParameter("@auxDescripcion", art.Nombre));
+            sqlComando.Parameters.Add(new SqlParameter("@auxNombre", art.Nombre));
             sqlComando.Parameters.Add(new SqlParameter("@auxID", art.Id));
             sqlComando.Parameters.Add(new SqlParameter("@auxPrecio", art.Precio));
-            sqlComando.Parameters.Add(new SqlParameter("@auxCantidad", art.Stock));
+            sqlComando.Parameters.Add(new SqlParameter("@auxStock", art.Stock));
             sqlComando.Parameters.Add(new SqlParameter("@auxTipo", art.Tipo.ToString()));
 
             return EjecutarNonQuery(sql);
         }
 
         /// <summary>
-        /// Elimina un articulo de la base de datos
+        /// Se Elimina un articulo de la base de datos
         /// </summary>
         /// <param name="art"></param>
-        /// <returns>true si se elimino, false caso contrario</returns>
+        /// <returns>true si se elimino, false lo contrario</returns>
         public bool EliminarArticulo(Articulo art)
         {
             string sql = "Delete articulos where id = @auxID";
@@ -114,7 +117,7 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Trae el listado de articulos guardados en la base de datos
+        /// Se Trae el listado de articulos guardados en la base de datos de sql
         /// </summary>
         /// <returns>Lista de articulos</returns>
         public List<Articulo> Leer()
@@ -123,7 +126,7 @@ namespace Entidades
 
             try
             {
-                sqlComando.CommandText = "Select * from articulos";
+                sqlComando.CommandText = "Select * from articulos";//se elecciona todo de articulos
 
                 sqlConexion.Open();
 
@@ -131,18 +134,23 @@ namespace Entidades
 
                 while (reader.Read())
                 {
-                    string tipo = reader["tipoArticulo"].ToString();
-
-                    if (tipo == "perecedero")
+                    string tipo = reader["tipoArticulo"].ToString();               
+                    if (tipo == "perecedero")//Se pregunta para separar los tipos
                     {
                         articulos.Add(new AlimentoPerecedero(reader["nombre"].ToString(), int.Parse(reader["idArticulo"].ToString()),
                         double.Parse(reader["Precio"].ToString()), int.Parse(reader["stock"].ToString()), Articulo.ETipo.perecedero));
 
+                    }//semiperecedero
+                    else if (tipo =="semiPerecedero")
+                    {
+                        articulos.Add(new AlimentoSemiPerecederos(reader["nombre"].ToString(), int.Parse(reader["idArticulo"].ToString()),
+                        double.Parse(reader["Precio"].ToString()), int.Parse(reader["stock"].ToString()), Articulo.ETipo.semiPerecedero));
                     }
-                    else
+                    else//No perecederos
                     {
                         articulos.Add(new AlimentoNoPerecedero(reader["nombre"].ToString(), int.Parse(reader["idArticulo"].ToString()),
                         double.Parse(reader["Precio"].ToString()), int.Parse(reader["stock"].ToString()), Articulo.ETipo.noPerecedero));
+
                     }
 
 
@@ -165,7 +173,7 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Trae un articulo de la base de datos identificado con el ID
+        /// Se Trae un articulo de la base de datos selecciona por ID
         /// </summary>
         /// <param name="id"></param>
         /// <returns>Objeto de tipo articulo</returns>
@@ -190,6 +198,11 @@ namespace Entidades
                         art = new AlimentoPerecedero(reader["nombre"].ToString(), id,
                         double.Parse(reader["Precio"].ToString()), int.Parse(reader["stock"].ToString()), Articulo.ETipo.perecedero);
 
+                    }
+                    else if (tipo == "semiPerecedero")
+                    {
+                        art = new AlimentoPerecedero(reader["nombre"].ToString(), id,
+                        double.Parse(reader["Precio"].ToString()), int.Parse(reader["stock"].ToString()), Articulo.ETipo.semiPerecedero);
                     }
                     else
                     {

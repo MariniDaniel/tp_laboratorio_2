@@ -40,10 +40,10 @@ namespace Entidades
         protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("\nPRODUCTO PERECEDERO");
-            sb.AppendLine("--------------------------------------------------------------");
+            sb.AppendLine("\nArticulo PERECEDERO-Necesita FRIO-4,4C°");
+            sb.AppendLine("$-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+$");
             sb.AppendLine(base.Mostrar());
-            sb.AppendLine("Recuerde que este producto debe conservarse a baja temperatura");
+            sb.AppendLine("Se debe conservar este Articulo en una Heladera.");
 
 
             return sb.ToString();
