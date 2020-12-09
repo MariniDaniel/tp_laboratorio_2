@@ -205,7 +205,7 @@ namespace ClaseDeTest
 
             try
             {
-                Console.WriteLine("\nSE IMPRIME EL LISTADO DE ARTICULOS PARA VERIFICAR QUE BAJO EL STOCK DE LOS ARTICULOS VENDIDOS: ");
+                Console.WriteLine("\nSE IMPRIME EL LISTADO DE ARMAS PARA VER COMO BAJA EL STOCK DE LAS ARMAS VENDIDOS: ");
                 Console.WriteLine();
 
                 Console.WriteLine(Armeria.MostrarArticulos());

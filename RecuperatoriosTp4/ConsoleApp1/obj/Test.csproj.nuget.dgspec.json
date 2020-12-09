@@ -1,19 +1,19 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\ConsoleApp1\\Test.csproj": {}
+    "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\ConsoleApp1\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Archivos\\Archivos.csproj": {
+    "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Archivos\\Archivos.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Archivos\\Archivos.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Archivos\\Archivos.csproj",
         "projectName": "Archivos",
-        "projectPath": "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Archivos\\Archivos.csproj",
+        "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Archivos\\Archivos.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Excepciones\\Excepciones.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Excepciones\\Excepciones.csproj"
+              "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Excepciones\\Excepciones.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Excepciones\\Excepciones.csproj"
               }
             }
           }
@@ -23,14 +23,14 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\ConsoleApp1\\Test.csproj": {
+    "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\ConsoleApp1\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\ConsoleApp1\\Test.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\ConsoleApp1\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\ConsoleApp1\\Test.csproj",
+        "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\ConsoleApp1\\Test.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Microsoft\\Xamarin\\NuGet\\"
@@ -50,8 +50,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -89,19 +89,19 @@
         }
       }
     },
-    "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Entidades\\Entidades.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Entidades\\Entidades.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Archivos\\Archivos.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Archivos\\Archivos.csproj"
+              "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Archivos\\Archivos.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Archivos\\Archivos.csproj"
               },
-              "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Excepciones\\Excepciones.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Excepciones\\Excepciones.csproj"
+              "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Excepciones\\Excepciones.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Excepciones\\Excepciones.csproj"
               }
             }
           }
@@ -111,11 +111,11 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Excepciones\\Excepciones.csproj": {
+    "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Excepciones\\Excepciones.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Excepciones\\Excepciones.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Excepciones\\Excepciones.csproj",
         "projectName": "Excepciones",
-        "projectPath": "C:\\Users\\Daniel\\source\\repos\\ConsoleApp1\\Excepciones\\Excepciones.csproj"
+        "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Excepciones\\Excepciones.csproj"
       },
       "frameworks": {
         "net472": {}

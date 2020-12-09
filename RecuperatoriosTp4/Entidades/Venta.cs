@@ -164,11 +164,11 @@ namespace Entidades
 
 
         /// <summary>
-        /// agrega un nuevo articulo a la venta a traves de id. verifica anteriormente que exista stock suficiente.
+        /// agrega un nueva Arma a la venta a traves de id. verifica anteriormente que exista stock suficiente.
         /// </summary>
         /// <param name="venta"></param>
         /// <param name="id"></param>
-        /// <returns>objeto venta con el art cargado. si no puede cargados lanza VentasEx</returns>
+        /// <returns>objeto venta con el arma cargada. si no puede cargados lanza VentasEx</returns>
         public static Venta operator +(Venta venta, int id)
         {
             Armas art = (venta == id);
@@ -181,18 +181,18 @@ namespace Entidades
             }
             else
             {
-                throw new VentasEx("No se pudo ingresar el Articulo a la lista. controle el ID o si hay stock!!");
+                throw new VentasEx("No se pudo ingresar el Arma a la lista. verificar el ID o si hay stock!!");
             }
 
             return venta;
         }
 
         /// <summary>
-        /// Verifica a traves del id indicado si el arituclo existe en la base de datos
+        /// Verifica a traves del id indicado si la Arma existe en la base de datos
         /// </summary>
         /// <param name="venta"></param>
         /// <param name="id"></param>
-        /// <returns>si el articulo solicitado, si no existe lo devuelve en null</returns>
+        /// <returns>si el Arma solicitada, si no existe lo devuelve en null</returns>
         public static Armas operator ==(Venta venta, int id)
         {
             Armas art = null;
@@ -210,11 +210,11 @@ namespace Entidades
         }
 
         /// <summary>
-        /// retorna el primer articulo que no coincida con el id indicado
+        /// retorna la primer Arma que no coincida con el id indicado
         /// </summary>
         /// <param name="venta"></param>
         /// <param name="id"></param>
-        /// <returns>objeto de tipo articulo</returns>
+        /// <returns>objeto de tipo arma</returns>
         public static Armas operator !=(Venta venta, int id)
         {
             Armas artic = null;

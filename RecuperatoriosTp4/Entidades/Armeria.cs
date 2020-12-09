@@ -142,7 +142,6 @@ namespace Entidades
                 if (Armeria.Ventas + venta02)
                 {
                     Thread.Sleep(2500);
-                    Console.ForegroundColor = ConsoleColor.Red;
 
                     Console.WriteLine($"Se genero una nueva venta en {Thread.CurrentThread.Name} ticket Nro.: {venta02.NumeroDeTicket}");
                 }
@@ -164,7 +163,6 @@ namespace Entidades
                 if (Armeria.Ventas + venta03)
                 {
                     Thread.Sleep(2500);
-                    Console.ForegroundColor = ConsoleColor.Red;
 
                     Console.WriteLine($"Se genero una nueva venta en {Thread.CurrentThread.Name} ticket Nro.: {venta03.NumeroDeTicket}");
                 }
@@ -231,8 +229,7 @@ namespace Entidades
                 venta03 += 4;
                 if (Armeria.Ventas + venta03)
                 {
-                    Thread.Sleep(2500);
-                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                    Thread.Sleep(2500);               
                     Console.WriteLine($"Se genero una nueva venta en {Thread.CurrentThread.Name} ticket Nro.: {venta03.NumeroDeTicket}");
                 }
             }
@@ -243,7 +240,7 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Agrega una nueva venta a la lista de Deposito
+        /// Agrega una nueva venta a la lista de Armeria
         /// </summary>
         /// <param name="venta"></param>
         /// <returns>true si se cargo, false caso contrario</returns>
@@ -259,7 +256,7 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Descuenta del stock un articulo agregado a la venta
+        /// Descuenta del stock una arma agregada a la venta
         /// </summary>
         /// <param name="venta"></param>
         /// <returns>true si se desconto, false caso contrario</returns>

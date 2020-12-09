@@ -104,7 +104,7 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Se Elimina un articulo de la base de datos
+        /// Se Elimina una Arma de la base de datos
         /// </summary>
         /// <param name="art"></param>
         /// <returns>true si se elimino, false lo contrario</returns>
@@ -174,7 +174,7 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Se Trae un articulo de la base de datos selecciona por ID
+        /// Se Trae una Arma de la base de datos selecciona por ID
         /// </summary>
         /// <param name="id"></param>
         /// <returns>Objeto de tipo articulo</returns>

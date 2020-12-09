@@ -9,7 +9,7 @@ namespace TestUnitario
     public class Test1
     {
         /// <summary>
-        /// Verifica que se instancie la lista de tipo Producto al instanciar un objeto de tipo Venta
+        /// Verifica que se instancie la lista de tipo Arma al instanciar un objeto de tipo Venta
         /// </summary>
         [TestMethod]
         public void ValidarNegativos()

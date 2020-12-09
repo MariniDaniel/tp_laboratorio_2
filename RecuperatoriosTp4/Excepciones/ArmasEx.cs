@@ -9,7 +9,7 @@ namespace Excepciones
     public class ArmasEx : Exception
     {
         /// <summary>
-        /// Constructor parametrizado de articulo
+        /// Constructor parametrizado de Armas
         /// </summary>
         /// <param name="mensaje"></param>
         public ArmasEx(string mensaje) : base(mensaje)
