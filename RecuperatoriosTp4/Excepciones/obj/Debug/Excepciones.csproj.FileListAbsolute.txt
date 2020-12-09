@@ -1,0 +1,8 @@
+C:\Users\Daniel\source\repos\ConsoleApp1\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Daniel\source\repos\ConsoleApp1\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Daniel\source\repos\ConsoleApp1\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\source\repos\ConsoleApp1\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Daniel\source\repos\ConsoleApp1\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\Daniel\source\repos\ConsoleApp1\Excepciones\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Daniel\source\repos\ConsoleApp1\Excepciones\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Daniel\source\repos\ConsoleApp1\Excepciones\obj\Debug\Excepciones.csproj.CopyComplete

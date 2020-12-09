@@ -1,0 +1,125 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\ConsoleApp1\\Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Archivos\\Archivos.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Archivos\\Archivos.csproj",
+        "projectName": "Archivos",
+        "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Archivos\\Archivos.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Excepciones\\Excepciones.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Excepciones\\Excepciones.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\ConsoleApp1\\Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\ConsoleApp1\\Test.csproj",
+        "projectName": "Test",
+        "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\ConsoleApp1\\Test.csproj",
+        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\ConsoleApp1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Entidades\\Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Entidades\\Entidades.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Entidades\\Entidades.csproj",
+        "projectName": "Entidades",
+        "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Entidades\\Entidades.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Archivos\\Archivos.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Archivos\\Archivos.csproj"
+              },
+              "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Excepciones\\Excepciones.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Excepciones\\Excepciones.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Excepciones\\Excepciones.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Excepciones\\Excepciones.csproj",
+        "projectName": "Excepciones",
+        "projectPath": "C:\\Users\\Daniel\\Desktop\\tp_laboratorio_2\\RecuperatoriosTp4\\Excepciones\\Excepciones.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
